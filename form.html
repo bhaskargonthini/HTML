@@ -1,0 +1,57 @@
+<!doctype>
+<html>
+<title>Bio-Data Form</title>
+<h1 align = "center" style = "font-family:serif;color:#375F1B"><b>Personal Details</b></h1>
+<body style = "margin:0px;background-color:#66B032">
+<form align = "center">
+<b>
+Name: <input type = "text" id= "name" name = "Name"><br>
+<br>
+Password: <input type = "password" id = "password"  name= "password"><br>
+<br>
+E-mail Id: <input type= "email" id = "email" name = "email"><br>
+<br>
+<label for = "gender">Gender</label>
+<input type="radio" name = "gender" id = "gender" value="male"> Male
+<input type="radio" name = "gender" id = "gender" value="male"> Female
+<br>
+<br>
+Contact: <input type = "number" id = "number" name="contact"><br>
+<br>
+<h1 align = "center" style = "font-family:serif;color:#375F1B"><b>Educational Qualification</b></h1>
+<label for="Degree">Degree: </label>
+<select name = "-- Select Group --" id = "-- Select Group --">
+<option value = "Select Group">Select Group</option>
+<option value="B.Sc">B.Sc</option>
+<option value="B.Com">B.Com</option>
+<option value="MBA">MBA</option>
+</select><br>
+<br>
+<label for ="Engineering">Engineering: </label>
+<select name = "-- Select Group --" id = "-- Select Group --">
+<option value = "CSE">CSE</option>
+<option value = "ECE">ECE</option>
+<option value = "Mech">Mech</option>
+</select>
+<br>
+<br>
+Hobbies: 
+<input type="checkbox" name="Playing Chess" id = "Playing Chess" value="Playing Chess">
+<label for ="Playing Chess">Playing Chess</label>
+<input type="checkbox" name="Reading Books" id = "Reading Books" value="Reading Books">
+<label for ="Reading Books">Reading Books</label>
+<br>
+<br>
+<h1 align = "center" style = "font-family:serif;color:#375F1B"><b>Address</b></h1>
+<textarea id ="address" name ="address"rows="4"cols="50"></textarea>
+<br>
+<br>
+<label for ="Attach Resume">Attach Resume: </label>
+<input type="file"name="Filename" id="myfile">
+<br>
+<br>
+<input type="button" name="Submit" value="Submit">
+</b>
+</form>
+</body>
+</html>
